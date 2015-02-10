@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<World>
+  <Item>
+    <name>silver key</name>
+    <weight>1</weight>
+    <symbol>)</symbol>
+    <value>10</value>
+    <quantity>1</quantity>
+  </Item>
+
+  <Player>
+    <name>Niall</name>
+    <hp>20</hp>
+    <level>1</level>
+    <symbol>N</symbol>
+  </Player>
+
+  <Enemy>
+    <name>orc</name>
+    <hp>15</hp>
+    <level>3</level>
+    <symbol>o</symbol>
+    <hostile>true</hostile>
+  </Enemy>
+
+  <Enemy>
+    <name>kobold</name>
+    <hp>6</hp>
+    <level>1</level>
+    <symbol>k</symbol>
+    <hostile>true</hostile>
+  </Enemy>
+
+  <Enemy>
+    <name>orc warrior</name>
+    <hp>25</hp>
+    <level>6</level>
+    <symbol>o</symbol>
+    <hostile>true</hostile>
+  </Enemy>
+
+  <Enemy>
+    <name>goblin</name>
+    <hp>4</hp>
+    <level>1</level>
+    <symbol>g</symbol>
+    <hostile>true</hostile>
+  </Enemy>
+
+  <Enemy>
+    <name>gnome</name>
+    <hp>15</hp>
+    <level>3</level>
+    <symbol>G</symbol>
+    <hostile>false</hostile>
+  </Enemy>
+
+
+  <Weapon>
+    <name>greatsword</name>
+    <weight>20</weight>
+    <value>100</value>
+    <symbol>(</symbol>
+    <damage>10</damage>
+    <type>slashing</type>
+    <quantity>1</quantity>
+    <cost>15</cost>
+  </Weapon>
+
+  <Weapon>
+    <name>warhammer</name>
+    <weight>10</weight>
+    <value>50</value>
+    <symbol>(</symbol>
+    <damage>5</damage>
+    <type>blunt</type>
+    <quantity>1</quantity>
+    <cost>15</cost>
+  </Weapon>
+
+  <Weapon>
+    <name>dagger</name>
+    <weight>5</weight>
+    <value>10</value>
+    <symbol>(</symbol>
+    <damage>3</damage>
+    <type>piercing</type>
+    <quantity>1</quantity>
+    <cost>3</cost>
+  </Weapon>
+
+  <Armor>
+    <name>chainmail</name>
+    <weight>30</weight>
+    <value>80</value>
+    <symbol>[</symbol>
+    <protection>5</protection>
+    <type>body</type>
+    <dexBonus>5</dexBonus>
+ </Armor>
+
+  <Armor>
+    <name>leather</name>
+    <weight>10</weight>
+    <value>20</value>
+    <symbol>[</symbol>
+    <protection>2</protection>
+    <type>body</type>
+    <dexBonus>10</dexBonus>
+  </Armor>
+
+  <Armor>
+    <name>platemail</name>
+    <weight>50</weight>
+    <value>200</value>
+    <symbol>[</symbol>
+    <protection>12</protection>
+    <type>body</type>
+    <dexBonus>-5</dexBonus>
+  </Armor>
+</World>
